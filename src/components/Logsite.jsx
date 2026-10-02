@@ -23,7 +23,7 @@ background: "linear-gradient(138deg, rgba(0, 29, 161, 1) 0%, rgba(105, 145, 240,
                 <p className="fs-6 text-white text-opacity-75">Zespół Szkół nr 4 im. J. Groszkowskiego w Tychach, Technikum nr 3</p>    
             </div>
             <div className="row w-100 justify-content-center align-items-center">
-                 <div className="card mt-3 col-12 col-md-6 col-lg-3 bg-white rounded-4 border-0">
+                 <div className="card mt-3 col-12 col-md-6 shadow  col-lg-3 bg-white rounded-4 border-0">
                   <div className="p-3">
                       <div className="row mb-0">
                         <p className="fs-4 mb-0 fw-bold">Zaloguj się</p>
@@ -59,12 +59,12 @@ background: "linear-gradient(138deg, rgba(0, 29, 161, 1) 0%, rgba(105, 145, 240,
                             
                              <button
                             type="button"
-                            className="btn  w-100 mt-4 py-2 text-center p-5 text-white fw-semibold"
+                            className="btn shadow p-3 mb-3   w-100 mt-4 py-2 text-center rounded-4 p-5 text-white fw-semibold"
                             style={{background: "rgba(30, 58, 138)"}}
                             onClick={()=>setLogged(true)}
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="me-1 lucide-log-out"><path d="m16 17 5-5-5-5"/><path d="M21 12H9"/><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/></svg>
-                            Kontynuuj
+                            Zaloguj się
                         </button>
 </div>
                         </form>
