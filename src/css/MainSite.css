@@ -1,5 +1,109 @@
-.tools:hover{
-    background-color: rgba(215, 215, 215, 0.2);
-    
-    
+
+
+.tools {
+    position: relative;
+    overflow: hidden;
+
+    width: 100%;
+    min-height: 44px;
+
+    border: none !important;
+    border-radius: 10px !important;
+
+    background: transparent !important;
+
+    color: rgba(255, 255, 255, 0.82) !important;
+
+    transition:
+        color 220ms ease,
+        transform 220ms cubic-bezier(.22, 1, .36, 1);
+}
+
+
+.tools::before {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 10px;
+
+    transform: scaleX(0.85);
+    opacity: 0;
+
+    transition:
+        transform 280ms cubic-bezier(.22, 1, .36, 1),
+        opacity 220ms ease;
+}
+
+
+.tools::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 7px;
+    bottom: 7px;
+
+    width: 3px;
+
+    background: #60a5fa;
+    border-radius: 0 4px 4px 0;
+
+    transform: scaleY(0);
+    transform-origin: center;
+
+    transition:
+        transform 260ms cubic-bezier(.22, 1, .36, 1);
+}
+
+
+.tools svg,
+.tools span {
+    position: relative;
+    z-index: 2;
+}
+
+
+.tools:hover {
+    color: #ffffff !important;
+
+    transform: translateX(3px);
+}
+
+.tools:hover::before {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.tools:hover::after {
+    transform: scaleY(1);
+}
+
+
+.tools svg {
+    transition:
+        transform 220ms cubic-bezier(.22, 1, .36, 1),
+        opacity 220ms ease;
+}
+
+.tools:hover svg {
+    transform: translateX(2px);
+}
+
+
+.tools span {
+    transition:
+        transform 220ms cubic-bezier(.22, 1, .36, 1);
+}
+
+.tools:hover span {
+    transform: translateX(2px);
+}
+
+
+.tools:active {
+    transform: translateX(2px) scale(0.985);
 }
