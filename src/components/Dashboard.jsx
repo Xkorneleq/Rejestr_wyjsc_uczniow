@@ -78,36 +78,33 @@ const Dashboard = ()=>{
                     <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 </div>
             </div>
-             <div className="mt-2 fs-3 fw-bold text-dark">6.4</div>
-            <div className="mt-1 fw-bold text-secondary text-uppercase small">Śr. czas wyjścia</div>
+            <div className="mt-2  fs-3 fw-bold text-dark">6.34</div>
+            <div className="mt-1  fw-bold text-secondary text-uppercase small">Śr. czas wyjścia</div>
         </div>
     </div>
    
-<div className="col-12 col-lg-6">
-        <div className="card border-0 shadow p-3 h-100"> 
+<div className="col-12 col-lg-6 mt-4">
+        <div className="card border-0 shadow p-3 h-100 "> 
             <div>
-                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                     style={{ backgroundColor: "#eef4ff" }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
-                    strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
-                    </svg>
+                <div className="d-flex align-items-center justify-content-between flex-row rounded" >
+                       <div className=" fs-5 fw-bold text-dark">Aktywne wyjścia</div>
+                       <div className="px-3 p-1 rounded-3 fw-bold small" style={{background:"#fae2bf", color:"#fc9330"}} >1 poza salą</div>
+                </div>
+                        <hr className="my-2 text-dark text-opacity-75 mt-3"/>
+                <div className="w-100 rounded d-flex flex-column p-2  mt-3" style={{background:"#fcebd3"}}>
+                    <span className=" text-dark fs-4">Gabriela Sęp</span>
+                    <span className="text-dark text-opacity-50">Klasa 4C - 4 min temu</span>
                 </div>
             </div>
-            <div className="mt-2 fs-3 fw-bold text-dark">2</div>
-            <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
+            <div>
+
+            </div>
         </div>
     </div>        
-<div className="col-12 col-lg-6">
+<div className="col-12 col-lg-6 mt-4">
         <div className="card border-0 shadow p-3 h-100"> 
             <div>
-                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                     style={{ backgroundColor: "#eef4ff" }}>
-                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
-                    strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
-                    </svg>
-                </div>
+               
             </div>
             <div className="mt-2 fs-3 fw-bold text-dark">2</div>
             <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
