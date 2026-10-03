@@ -84,32 +84,103 @@ const Dashboard = ()=>{
     </div>
    
 <div className="col-12 col-lg-6 mt-4">
-        <div className="card border-0 shadow p-3 h-100 "> 
-            <div>
-                <div className="d-flex align-items-center justify-content-between flex-row rounded" >
-                       <div className=" fs-5 fw-bold text-dark">Aktywne wyjścia</div>
-                       <div className="px-3 p-1 rounded-3 fw-bold small" style={{background:"#fae2bf", color:"#fc9330"}} >1 poza salą</div>
-                </div>
-                        <hr className="my-2 text-dark text-opacity-75 mt-3"/>
-                <div className="w-100 rounded d-flex flex-column p-2  mt-3" style={{background:"#fcebd3"}}>
-                    <span className=" text-dark fs-4">Gabriela Sęp</span>
-                    <span className="text-dark text-opacity-50">Klasa 4C - 4 min temu</span>
-                </div>
+    <div className="card border-0 shadow-sm p-4 rounded" >
+   
+        <div className="d-flex align-items-center justify-content-between mb-3">
+            <div className="fs-5 fw-bold" style={{ color: "#1a202c" }}>Aktywne wyjścia</div>
+            <div className="px-3 py-1 rounded-pill fw-bold small" 
+                 style={{ background: "#fff5eb", color: "#f6682a", fontSize: "0.85rem" }}>
+                1 poza salą
             </div>
-            <div>
+        </div>
 
+        <hr className="text-secondary opacity-25 my-3" />
+
+ 
+        <div className="w-100 rounded d-flex align-items-center p-3 mt-3 border" 
+             style={{ 
+                 background: "#fff9f1", 
+                 borderColor: "#fde0c8 !important",
+                 borderStyle: "solid",
+                 borderWidth: "1px"
+             }}>
+            
+    
+            <div className="rounded-circle me-3" 
+                 style={{ width: "10px", height: "10px", background: "#fdbb74" }}></div>
+            
+          
+            <div className="flex-grow-1">
+                <div className="fw-bold text-dark" style={{ fontSize: "1.05rem", lineHeight: "1.2" }}>
+                    Gabriela Kaczmarek
+                </div>
+                <div className="text-muted small">
+                    Klasa 2A · 6 min temu
+                </div>
+            </div>
+
+         
+            <div className="px-3 py-1 rounded-pill border fw-bold" 
+                 style={{ 
+                    background: "#ffffff", 
+                    color: "#f6682a", 
+                    borderColor: "#fde0c8", 
+                    fontSize: "0.9rem" 
+                 }}>
+                10:22
             </div>
         </div>
-    </div>        
+    </div>
+</div>       
 <div className="col-12 col-lg-6 mt-4">
-        <div className="card border-0 shadow p-3 h-100"> 
-            <div>
-               
+    <div className="card border-0 shadow-sm p-4 rounded" >
+   
+        <div className="d-flex align-items-center justify-content-between mb-3">
+            <div className="fs-5 fw-bold" style={{ color: "#1a202c" }}>Aktywne wyjścia</div>
+            <div className="px-3 py-1 rounded-pill fw-bold small" 
+                 style={{ background: "#fff5eb", color: "#f6682a", fontSize: "0.85rem" }}>
+                1 poza salą
             </div>
-            <div className="mt-2 fs-3 fw-bold text-dark">2</div>
-            <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
         </div>
-    </div>  
+
+        <hr className="text-secondary opacity-25 my-3" />
+
+ 
+        <div className="w-100 rounded d-flex align-items-center p-3 mt-3 border" 
+             style={{ 
+                 background: "#fff9f1", 
+                 borderColor: "#fde0c8 !important",
+                 borderStyle: "solid",
+                 borderWidth: "1px"
+             }}>
+            
+    
+            <div className="rounded-circle me-3" 
+                 style={{ width: "10px", height: "10px", background: "#fdbb74" }}></div>
+            
+          
+            <div className="flex-grow-1">
+                <div className="fw-bold text-dark" style={{ fontSize: "1.05rem", lineHeight: "1.2" }}>
+                    Gabriela Kaczmarek
+                </div>
+                <div className="text-muted small">
+                    Klasa 2A · 6 min temu
+                </div>
+            </div>
+
+         
+            <div className="px-3 py-1 rounded-pill border fw-bold" 
+                 style={{ 
+                    background: "#ffffff", 
+                    color: "#f6682a", 
+                    borderColor: "#fde0c8", 
+                    fontSize: "0.9rem" 
+                 }}>
+                10:22
+            </div>
+        </div>
+    </div>
+</div>    
 </div>
             </div>
     )
