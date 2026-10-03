@@ -20,60 +20,99 @@ const Dashboard = ()=>{
                     </div>
                 </div>
            <div className="row w-100 mt-3 p-2 g-3">
-<div className="col">
-    <div className="card border-0 shadow p-3">
-        <div>
-            <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                 style={{ backgroundColor: "#eef4ff" }}>
-                <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
-                strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
-                </svg>
-            </div>
-        </div>
-        <div className="mt-2 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
-    </div>
-</div>
 
-<div className="col">
-    <div className="card border-0 shadow p-3">
-        <div>
-            <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                 style={{ backgroundColor: "#fce5da" }}>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style={{color:"#f6682a"}} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-alert preview-icon">
-                <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+
+<div className="col-6 col-md-4 col-lg-3">
+        <div className="card border-0 shadow p-3 h-100"> 
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#eef4ff" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                    strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
+                    </svg>
+                </div>
             </div>
+            <div className="mt-2 fs-3 fw-bold text-dark">2</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
         </div>
-        <div className="mt-2 fw-bold text-secondary text-uppercase small">Poza salą</div>
     </div>
-</div>
-<div className="col">
-    <div className="card border-0 shadow p-3">
-        <div>
-            <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                 style={{ backgroundColor: "#f5e3ff" }}>
-                
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" style={{color:"#ca26fc"}} height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users preview-icon"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
-                <path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+
+  
+    <div className="col-6 col-md-4 col-lg-3">
+        <div className="card border-0 shadow p-3 h-100"> 
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#fce5da" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style={{color:"#f6682a"}} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>
+                </div>
             </div>
+             <div className="mt-2 fs-3 fw-bold text-dark">1</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">Poza salą</div>
         </div>
-        <div className="mt-2 fw-bold text-secondary text-uppercase small">Moje wyjścia dziś</div>
     </div>
-</div>
-<div className="col">
-    <div className="card border-0 shadow p-3">
-        <div>
-            <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
-                 style={{ backgroundColor: "#ebebeb" }}>
-                
-                <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#777777"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock-4 preview-icon">
-                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+
+ 
+    <div className="col-6 col-md-4 col-lg-3">
+        <div className="card border-0 shadow p-3 h-100">
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#f5e3ff" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" style={{color:"#ca26fc"}} height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                    <path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+                </div>
             </div>
+             <div className="mt-2 fs-3 fw-bold text-dark">4</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">Moje wyjścia dziś</div>
         </div>
-        <div className="mt-2 fw-bold text-secondary text-uppercase small">Śr. czas wyjścia</div>
     </div>
-</div>
+
+
+    <div className="col-6 col-md-4 col-lg-3">
+        <div className="card border-0 shadow p-3 h-100"> 
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#ebebeb" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#777777"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+            </div>
+             <div className="mt-2 fs-3 fw-bold text-dark">6.4</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">Śr. czas wyjścia</div>
+        </div>
+    </div>
    
+<div className="col-12 col-lg-6">
+        <div className="card border-0 shadow p-3 h-100"> 
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#eef4ff" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                    strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
+                    </svg>
+                </div>
+            </div>
+            <div className="mt-2 fs-3 fw-bold text-dark">2</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
+        </div>
+    </div>        
+<div className="col-12 col-lg-6">
+        <div className="card border-0 shadow p-3 h-100"> 
+            <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#eef4ff" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" style={{color:"#3473fc"}} width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" 
+                    strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M16 7h6v6"/><path d="m22 7-8.5 8.5-5-5L2 17"/>
+                    </svg>
+                </div>
+            </div>
+            <div className="mt-2 fs-3 fw-bold text-dark">2</div>
+            <div className="mt-1 fw-bold text-secondary text-uppercase small">wyjścia dziś</div>
+        </div>
+    </div>  
 </div>
             </div>
     )
