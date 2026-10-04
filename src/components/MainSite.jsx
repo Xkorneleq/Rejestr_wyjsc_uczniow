@@ -1,6 +1,7 @@
 import icon from "../assets/logo.png"
 import "../css/MainSite.css"
 import Dashboard from "../components/Dashboard.jsx"
+import AktywnaLekcja from "../components/AktywnaLekcja.jsx"
 import { useState } from "react";
 
 
@@ -87,7 +88,7 @@ const Main = ({page})=>{
     return(
         <main className="d-flex  flex-fill p-4 flex-column" style={{background: "#eceff1"}}>
            {page === "Dashboard" &&  <Dashboard/>}
-           
+           {page === "AktywnaLekcja" && <AktywnaLekcja/>}
         </main>
     );
 }

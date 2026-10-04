@@ -84,7 +84,7 @@ const Dashboard = ()=>{
     </div>
    
 <div className="col-12 col-lg-6 mt-4">
-    <div className="card border-0 shadow-sm p-4 rounded" >
+    <div className="card border-0 shadow-sm p-4 rounded  h-100" >
    
         <div className="d-flex align-items-center justify-content-between mb-3">
             <div className="fs-5 fw-bold" style={{ color: "#1a202c" }}>Aktywne wyjścia</div>
@@ -133,30 +133,32 @@ const Dashboard = ()=>{
     </div>
 </div>       
 <div className="col-12 col-lg-6 mt-4">
-    <div className="card border-0 shadow-sm p-4 rounded" >
+    <div className="card border-0 shadow-sm p-4 rounded h-100" >
    
         <div className="d-flex align-items-center justify-content-between mb-3">
-            <div className="fs-5 fw-bold" style={{ color: "#1a202c" }}>Aktywne wyjścia</div>
-            <div className="px-3 py-1 rounded-pill fw-bold small" 
-                 style={{ background: "#fff5eb", color: "#f6682a", fontSize: "0.85rem" }}>
-                1 poza salą
+            <div className="fs-5 fw-bold" style={{ color: "#1a202c" }}>Ostatnie lekcje</div>
+            <div className="px-3 py-1 rounded-pill fw-bold ">
+                <button className="btn border-0 background-transparent medium text-primary">
+                Historia →
+                </button>
             </div>
         </div>
 
         <hr className="text-secondary opacity-25 my-3" />
 
  
-        <div className="w-100 rounded d-flex align-items-center p-3 mt-3 border" 
-             style={{ 
-                 background: "#fff9f1", 
-                 borderColor: "#fde0c8 !important",
-                 borderStyle: "solid",
-                 borderWidth: "1px"
-             }}>
+        <div className="w-100 rounded d-flex align-items-center p-3 mt-3" >
             
     
-            <div className="rounded-circle me-3" 
-                 style={{ width: "10px", height: "10px", background: "#fdbb74" }}></div>
+            <div className="me-3" >
+                 <div>
+                <div className="d-inline-flex align-items-center justify-content-center p-2 rounded" 
+                     style={{ backgroundColor: "#eef4ff" }}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" style={{color:"#3473fc"}} viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open preview-icon"><path d="M12 5v16"/>
+                    <path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg>
+                </div>
+            </div>
+              </div>
             
           
             <div className="flex-grow-1">
@@ -169,14 +171,10 @@ const Dashboard = ()=>{
             </div>
 
          
-            <div className="px-3 py-1 rounded-pill border fw-bold" 
-                 style={{ 
-                    background: "#ffffff", 
-                    color: "#f6682a", 
-                    borderColor: "#fde0c8", 
-                    fontSize: "0.9rem" 
-                 }}>
-                10:22
+            <div className="px-3 py-1 small fw-bold text-dark text-opacity-50">
+               <button className="btn border-0 background-transparent ">
+                 1 wyjść ❯
+               </button>
             </div>
         </div>
     </div>
